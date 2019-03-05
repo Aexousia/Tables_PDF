@@ -47,7 +47,7 @@ def loadData():
     train_data = []
     train_labels = []
     for image in images:
-        if image[-4:] == 'jpeg':
+        if image[-4:] == 'png':
             transformed_image = transform_img(
                 io.imread(DATA_DIR + '/' + image))
             train_data.append(transformed_image)
