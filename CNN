@@ -10,7 +10,7 @@ from keras.layers import MaxPooling2D, Flatten, Dropout
 
 NB_EPOCH = 10
 IMAGE_SIZE = 50
-DATA_DIR = "data"
+DATA_DIR = "Desktop/HSBC"
 TRAIN_DATA_FRACTION = 0.8
 
 
