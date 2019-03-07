@@ -16,8 +16,7 @@ TRAIN_DATA_FRACTION = 0.8
 
 def test_train_split(data, labels, f):
     test_data_size = int(len(data) * f)
-    return data[:test_data_size], labels[:test_data_size], \
-        data[test_data_size:], labels[test_data_size:]
+    return data[:test_data_size], labels[:test_data_size], \data[test_data_size:], labels[test_data_size:]
 
 
 def CNN():
